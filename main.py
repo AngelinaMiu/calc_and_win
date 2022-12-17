@@ -15,6 +15,15 @@ mid — урон от 15 до 25 очков;
 hard — урон от 30 до 40 очков.
 ВПЕРЁД К ПОБЕДЕ!!!
 '''
+def run_game():
+
+    yes_no = {
+        'Y': True,
+        'N': False,
+        # Новые значения словаря.
+        'y': True,
+        'n': False,
+    }
 
 def main():
     print(INTRO)
